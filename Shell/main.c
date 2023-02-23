@@ -1,7 +1,7 @@
 #include "main.h"
 
 int main(int ac, char **argv){
-    char *prompt = "(Kip)$\n";
+    char *prompt = "$";
     char *lineptr;
 
     size_t n = 0;
