@@ -2,13 +2,13 @@
 
 int main (void)
 {
-	int i;
-	int j;
+	int i = 1;
+	int j = 1;
 	char symbol = '*';
 	
 	for (i = 1; i <= 4; i++)
 	{
-		for (j = 1; j <= 4; j++)
+		for (j = 1; j <= 2; j++)
 		{
 			printf("%c", symbol);
 		}
